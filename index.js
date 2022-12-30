@@ -10,18 +10,22 @@ let hasBlackjack = false
 let isAlive = true
 let message = ""
 
-if (sum < 21) {
 
-    message = "Do you want to draw card "
-}
-else if (sum === 21) {
+function startGame() {
+    if (sum < 21) {
 
-    message = " Wohoo !! You got BlackJack 🥳"
-    hasBlackjack = true
-}
-else {
-    isAlive = false
-    message = "You're Lose 😔 "
-}
+        message = "Do you want to draw card "
+    }
+    else if (sum === 21) {
 
-console.log(message)
+        message = " Wohoo !! You got BlackJack 🥳"
+        hasBlackjack = true
+    }
+    else {
+        isAlive = false
+        message = "You're Lose 😔 "
+    }
+
+    console.log(message)
+
+}
