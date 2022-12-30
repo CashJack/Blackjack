@@ -1,0 +1,20 @@
+body {
+    /* background-color: green; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(https://www.pngitem.com/pimgs/m/62-626765_casino-asia-girl-png-asian-casino-girl-png.png);
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
+    text-align: center;
+
+}
+
+h1 {
+    color: goldenrod;
+    font-weight: bolder;
+}
+
+h2 {
+    color: green;
+    font-weight: bold;
+
+}
