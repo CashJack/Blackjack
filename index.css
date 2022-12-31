@@ -1,7 +1,7 @@
 body {
     /* background-color: green; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url(https://www.pngitem.com/pimgs/m/62-626765_casino-asia-girl-png-asian-casino-girl-png.png);
+    /* background-image: url(https://www.pngitem.com/pimgs/m/62-626765_casino-asia-girl-png-asian-casino-girl-png.png); */
     background-size: cover;
     background-repeat: no-repeat, repeat;
     text-align: center;
@@ -14,15 +14,23 @@ h1 {
 }
 
 h2 {
-    color: green;
+    /* background: goldenrod; */
     font-weight: bold;
+    color: #016f32;
+    ;
 
 }
 
 .button {
-    caret-color: #016f32;
+    color: white;
     width: 150px;
-    background: goldenrod;
+    border-radius: 2px;
+    background: #016f32;
     font-weight: bold;
+    margin: 7px;
+    padding: 7px;
+}
 
+#messageEl {
+    font-style: italic;
 }
